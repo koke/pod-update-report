@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E1C67C7E1C80A33B00D77039 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C67C7D1C80A33B00D77039 /* main.swift */; };
+		E1C67C851C80A56500D77039 /* SwiftTerminalScript.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C67C841C80A56500D77039 /* SwiftTerminalScript.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		E1C67C7A1C80A33B00D77039 /* pod-update-report */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "pod-update-report"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1C67C7D1C80A33B00D77039 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		E1C67C841C80A56500D77039 /* SwiftTerminalScript.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftTerminalScript.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				E1C67C7D1C80A33B00D77039 /* main.swift */,
+				E1C67C841C80A56500D77039 /* SwiftTerminalScript.swift */,
 			);
 			path = "pod-update-report";
 			sourceTree = "<group>";
@@ -119,6 +122,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1C67C851C80A56500D77039 /* SwiftTerminalScript.swift in Sources */,
 				E1C67C7E1C80A33B00D77039 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
